@@ -11,7 +11,13 @@ const config = {
 		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		vite: {
+			hmr: {
+				clientPort: process.env.HMR_HOST ? 443: 3000,
+				host: process.env.HMR_HOST ? process.env.HMR_HOST.substring("https://".length) : "localhost"
+			}
+		}
 	}
 };
 
