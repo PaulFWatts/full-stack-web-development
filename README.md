@@ -1,38 +1,31 @@
-# create-svelte
+# Simple Full-Stack "Todo" App
+https://full-stack-web-development-mauve.vercel.app/
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Automated Empheral Development environment in the browser using https://gitpod.io/
 
-## Creating a project
+Automated deployment for Vercel, Netlify or Cloudflare.
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
 
-> Note: the `@next` is temporary
+💻 The technology stack for this Project includes: 
 
-## Developing
+💿 Svelte https://svelte.dev/ 
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+💿 SvelteKit https://kit.svelte.dev/ 
 
-```bash
-npm run dev
+💿 Prisma https://www.prisma.io/
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+💿 Postgres https://www.postgresql.org/ 
 
-## Building
+💿 Vercel https://vercel.com/
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+💿 Railway https://railway.app/
 
-```bash
-npm run build
-```
+**This Project was built from a free course:**
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Developed by: Mike Nikles https://twitter.com/mikenikles
+
+Course video: https://youtu.be/OUzaUJ3gEug
+
+Course Repo: https://github.com/gitpod-io/full-stack-web-development
